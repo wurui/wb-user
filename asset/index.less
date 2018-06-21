@@ -1,3 +1,68 @@
+@font-face {
+  font-family: 'wb-user-iconfont';  /* project id 715254 */
+  src: url('//at.alicdn.com/t/font_715254_f412mmrm6s.eot');
+  src: url('//at.alicdn.com/t/font_715254_f412mmrm6s.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_715254_f412mmrm6s.woff') format('woff'),
+  url('//at.alicdn.com/t/font_715254_f412mmrm6s.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_715254_f412mmrm6s.svg#wb-user-iconfont') format('svg');
+}
 .oxmod-wb-user{
 /* CSS */
+	.banner{
+		height: 0;
+		padding-bottom: 55%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	.user{
+		padding:0 15px;
+		color:#333;
+		h3{
+			margin:15px 0;
+		}
+	}
+	.sex-X{
+		display: none;
+
+	}
+	.sex-F,
+	.sex-M{
+		&:before{
+			content: '\e6f9';
+			font-family: 'wb-user-iconfont';
+			font-style: normal;
+			color:#3ac;
+			font-size: .8em;
+			vertical-align: middle;
+			margin-left: .5em;
+		}
+	}
+	.sex-M{
+		&:before{
+			content: '\e6f9';
+			color:#2bf;
+		}
+	}
+	.sex-F{
+		&:before{
+			content: '\e60f';
+			color:#f77;
+		}
+	}
+	.avatar{
+		width:90px;
+		height: 90px;;
+		margin-top: -45px;
+		//margin-left: 15px;
+		border-radius: 50%;
+		display: inline-block;
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-color: #fff;
+	}
+	.user-name{
+		font-size: 18px;
+	}
  }
