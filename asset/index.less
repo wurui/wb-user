@@ -9,7 +9,7 @@
 .oxmod-wb-user{
 /* CSS */
 	//background-color: #f8f8f8;
-	
+
 	.banner{
 		height: 0;
 		padding-bottom: 55%;
@@ -18,10 +18,12 @@
 		background-position: center;
 	}
 	.user{
-		padding:0 15px 15px;
+		padding:0px 15px 15px;
 		color:#333;
+		//padding-left: 120px;
 		h3{
-			margin:15px 0;
+			margin:0;
+			padding:10px 0;
 		}
 	}
 	.sex-X{
@@ -56,6 +58,7 @@
 		width:90px;
 		height: 90px;;
 		margin-top: -45px;
+		//margin-left:-105px;
 		//margin-left: 15px;
 		border-radius: 50%;
 		display: inline-block;
@@ -63,8 +66,32 @@
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-color: #fff;
+		text-align: center;
+		//float: left;
+
 	}
+
 	.user-name{
 		font-size: 18px;
 	}
- }
+	.brief{
+		font-size: 12px;
+	}
+	.nodata{
+		color:#999;
+		.avatar{
+			background-color: #999;
+			&:before{
+				content: '无此用户';
+				//position: absolute;
+				color:#ccc;
+				line-height: 90px;
+				text-shadow: 0 0 1px #666;
+				
+			}
+		}
+		.banner{
+			background-image: url(http://i.oxm1.cc/uploads/git/wurui/img/2a6wmylp9Tjcfq300jRmrjiA3lts-556.jpg);
+		}
+	}
+}

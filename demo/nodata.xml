@@ -4,9 +4,6 @@
     <env>
         <domain>local</domain>
     </env>
-    <login>
-        <uid>git/wurui</uid>
-    </login>
     <p>
         <title>demo nodata page</title>
         <desc>this is deme page</desc>
