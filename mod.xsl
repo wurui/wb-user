@@ -2,15 +2,17 @@
     <xsl:template match="/root" name="wurui.wb-user">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-wb-user" ox-mod="wb-user">
-            <div class="banner" style="background-image:url({data/banner/i[1]/img})"></div>
-            <xsl:variable name="user" select="data/user/i[1]"/>
+            
+            <xsl:variable name="user" select="data/user-ext/i[1]"/>
+            
+            <div class="banner" style="background-image:url({$user/img})"></div>
             <div class="user">
-            	<span class="avatar" style="background-image:url({$user/avatar})"></span>
+            	<span class="avatar" style="background-image:url(http://i.oxm1.cc/uploads/{login/uid}/user/avatar.png@!w60)"></span>
             	<h3>
-            		<b class="user-name"><xsl:value-of select="$user/name"/></b>
+            		<b class="user-name"><xsl:value-of select="login/nick"/></b>
             		<em class="sex-{$user/sex}"></em>
             	</h3>
-            	<p class="brief"><xsl:value-of select="$user/brief"/></p>
+            	<p class="brief"><xsl:value-of select="$user/slogan"/></p>
             </div>
         </div>
     </xsl:template>

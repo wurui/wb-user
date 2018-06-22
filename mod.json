@@ -1,11 +1,9 @@
 {
   "name": "wb-user",
   "apiDependencies": [
+
   {
-    "name": "banner"
-  },
-  {
-    "name": "user"
+    "name": "user-ext"
   }
 ]
 }

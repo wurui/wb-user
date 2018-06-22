@@ -6,6 +6,7 @@
     </env>
     <login>
         <uid>git/wurui</uid>
+        <nick>wurui</nick>
     </login>
     <p>
         <title>demo page</title>
@@ -14,25 +15,17 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-    <user ADAPTERID="25b2b10f605944443f0803b97">
+    <user-ext>
         <i>
-            <_id>5b2b10f605944443f0803b96</_id>
             <uid>git/wurui</uid>
-            <avatar>http://i.oxm1.cc/uploads/git/wurui/img/2aed4yj52Tj4z832kqRmse6A2gp4-1003.png</avatar>
-            <name>Rio84</name>
-            <brief>我是一棵秋天的树</brief>
+            <img>http://i.oxm1.cc/uploads/git/wurui/img/2aj4ikjxcTj07uh1sgRtjukA8ob-667.jpg</img>
+            <slogan>我是一棵秋天的树</slogan>
             <sex>M</sex>
             <tags>
                 <i>OPENXSL开发者</i>
             </tags>
         </i>
-    </user>
-    <banner ADAPTERID="259d36422dd1fdfa5908a217d">
-        <i>
-            <_id>59d36422dd1fdfa5908a217e</_id>
-            <img>http://i.oxm1.cc/uploads/git/wurui/img/2aj4ikjxcTj07uh1sgRtjukA8ob-667.jpg</img>
-            <href></href>
-        </i>
-    </banner>
+    </user-ext>
+
     </data>
 </root>
