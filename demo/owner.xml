@@ -5,7 +5,7 @@
         <domain>local</domain>
     </env>
     <login>
-        <uid></uid>
+        <uid>git/wurui</uid>
         <nick>wurui</nick>
     </login>
     <p>
