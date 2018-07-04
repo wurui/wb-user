@@ -27,10 +27,10 @@
             	<xsl:otherwise>
             		<div class="nodata">
             			<div class="banner">
-                            <xsl:if test="login_uid">
-                                <a href="{$link_edit}" class="bt-set">开通主页</a>    
+                            <xsl:if test="$login_uid">
+                                <a href="{$link_edit}" class="bt-set">我的主页</a>    
                             </xsl:if>
-                            <xsl:if test="not(login_uid)">
+                            <xsl:if test="not($login_uid)">
                                 <b class="J_login bt-set">登录</b>
                             </xsl:if>
             			</div>
